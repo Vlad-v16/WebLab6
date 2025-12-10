@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charmander Evolution</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="evolution-scene">
+  <input type="checkbox" id="evo-trigger">
+
+  <div class="pokemon-card">
+    <div class="card-body">
+
+      <div class="card-header">
+        <div class="name-box">
+          <span class="name base-name">Charmander</span>
+          <span class="name evolved-name">Charmeleon</span>
+        </div>
+        <div class="level-box">
+          <span class="lvl-label">LV.</span>
+          <span class="lvl-val base-lvl">14</span>
+          <span class="lvl-val evolved-lvl">36</span>
+          <div class="type-badge">🔥</div>
+        </div>
+      </div>
+
+      <div class="image-area">
+        <div class="volcano-bg"></div>
+
+        <div class="pokemon-display">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+               class="poke-art base-art" alt="Charmander">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+               class="poke-art evolved-art" alt="Charmeleon">
+        </div>
+
+        <div class="fire-flash"></div>
+      </div>
+
+      <div class="info-strip">NO. 004 &rarr; 005 | Lizard Pokémon</div>
+
+      <div class="abilities-section">
+        <div class="ability-row base-ability">
+          <div class="cost">🔥</div>
+          <div class="move-title">Ember</div>
+          <div class="power">30</div>
+        </div>
+
+        <div class="ability-row evolved-ability">
+          <div class="cost">🔥🔥</div>
+          <div class="move-title evolved-text">Flamethrower</div>
+          <div class="power">80</div>
+          <p class="flavor-text">A powerful stream of fire. (+5 to all stats)</p>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <div>HP: <span class="base-hp">60</span><span class="evolved-hp">110</span></div>
+        <div>Weakness: 💧</div>
+        <div>Stage: Basic &rarr; Stage 1</div>
+      </div>
+
+      <div class="texture-overlay"></div>
+    </div>
+  </div>
+
+  <div class="control-panel">
+    <label for="evo-trigger" class="evo-button"></label>
+  </div>
+</div>
+
+</body>
+</html>
